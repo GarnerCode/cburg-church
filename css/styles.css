@@ -1,0 +1,21 @@
+/* Color Palatte
+#e7dec8;
+#cbaf87;
+#7e8a97;
+#30475e;
+*/
+body {
+    background-color: #e7dec8;
+}
+.center {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+.bg-light {
+    background-color: #cbaf87!important;
+}
+footer {
+    background-color: #30475e;
+}
