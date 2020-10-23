@@ -16,6 +16,49 @@ body {
 .bg-light {
     background-color: #cbaf87!important;
 }
+div.jumbotron.jumbotron-fluid {
+    background-image: url("media/side.jpg");
+    background-size: 100% 200%;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+}
+h1.display-4 {
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    font-weight: bold;
+}
+p.lead {
+    text-shadow: 0px 0px 5px white;
+    color: white;
+    background-color: rgba(0,0,0,0.3)
+}
+.card-img-top {
+    max-width: 100%;
+    max-height: 300px;
+}
+.header {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.feature {
+    width: 100%;
+    border: 2px solid #cbaf87;
+}
+.desc {
+    background-color: #cbaf87;
+    font-size: 30px;
+    text-align: justify;
+    padding: 5px;
+}
 footer {
     background-color: #30475e;
+    margin-top: 20em;
+}
+i.fab {
+    font-size: 30px;
+    color: #7e8a97;
+    padding-left: 20px;
+}
+i.fab:hover {
+    color: #e7dec8;
 }
