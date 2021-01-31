@@ -5,114 +5,116 @@
 #30475e;
 */
 body {
-    background-color: #e7dec8;
+  background-color: #e7dec8;
 }
 .center {
-    text-align: center;
+  text-align: center;
 }
 .justify {
-    text-align: justify;
+  text-align: justify;
 }
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 /*Home*/
 .bg-light {
-    background-color: #cbaf87!important;
+  background-color: #cbaf87 !important;
 }
 div.jumbotron.jumbotron-fluid {
-    background-image: url("media/side.jpg");
-    background-size: 100% 200%;
-    background-position-y: -10px;
-    background-repeat: no-repeat;
+  background-image: url("media/side.jpg");
+  background-size: 100% 200%;
+  background-position-y: -10px;
+  background-repeat: no-repeat;
 }
 h1.display-4 {
-    text-shadow: 0px 0px 5px black;
-    color: white;
-    font-weight: bold;
+  text-shadow: 0px 0px 5px black;
+  color: white;
+  font-weight: bold;
 }
 p.lead {
-    text-shadow: 0px 0px 5px white;
-    color: white;
-    background-color: rgba(0,0,0,0.3)
+  text-shadow: 0px 0px 5px white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .card-img-top {
-    max-width: 100%;
-    max-height: 300px;
+  max-width: 100%;
+  max-height: 300px;
 }
 /*About*/
 .header {
-    font-size: 30px;
-    margin-top: 5px;
+  font-size: 30px;
+  margin-top: 5px;
 }
 div.event {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .feature {
-    width: 100%;
-    border: 2px solid #cbaf87;
+  width: 100%;
+  border: 2px solid #cbaf87;
+  box-shadow: 2px 2px 5px black;
 }
 .desc {
-    background-color: #cbaf87;
-    font-size: 30px;
-    text-align: justify;
-    padding: 5px;
+  background-color: #cbaf87;
+  box-shadow: 2px 2px 5px black;
+  font-size: 30px;
+  text-align: justify;
+  padding: 15px;
 }
 /*Watch*/
 iframe#livestream {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 /*Contact*/
 .contact-desc {
-    font-size: 30px;
+  font-size: 30px;
 }
 .contact {
-    background-color: #cbaf87;
-    margin-bottom: 800px;
+  background-color: #cbaf87;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 800px;
 }
 .contact-line {
-    font-size: 20px;
+  font-size: 20px;
 }
 /*Footer*/
 footer {
-    background-color: #cbaf87;
-    margin-top: 20em;
+  background-color: #cbaf87;
+  margin-top: 20em;
 }
 i.fab {
-    font-size: 30px;
-    color: black;
-    padding-left: 20px;
+  font-size: 30px;
+  color: black;
+  padding-left: 20px;
 }
 i.fab:hover {
-    color: #e7dec8;
+  color: #e7dec8;
 }
 .footer-info {
-    display: inline;
-    font-style: italic;
-    margin-left: 30px;
+  display: inline;
+  font-style: italic;
+  margin-left: 30px;
 }
 /*Media Queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    div.jumbotron.jumbotron-fluid {
-        background-size: 150% 100%;
-    }
-    .card {
-        margin-bottom: 20px;
-    }
-    p.desc {
-        font-size: 20px;
-    }
-    iframe {
-        height: 300px;
-    }
+  div.jumbotron.jumbotron-fluid {
+    background-size: 150% 100%;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  p.desc {
+    font-size: 20px;
+  }
+  iframe {
+    height: 300px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 800px) {
-    .card {
-        margin-bottom: 20px;
-    }
+  .card {
+    margin-bottom: 20px;
+  }
 }
-
